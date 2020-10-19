@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;900&family=Mukta:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="top-menu">
+                <a href="#hero" class="top-menu-item">Главная</a>
+                <a href="#plus-it" class="top-menu-item">Плюсы</a>
+                <a href="#contact" class="top-menu-item">Контакты</a>
+            </nav>
+            <div class="logo">
+                <a href="#"><img src="./images/programmer.png" alt=""></a>
+            </div>
+            <div class="header-right-menu">
+                <div class="social-contacts">
+                    <a href="#" class="bx bxl-instagram"></a>
+                    <a href="#" class="bx bxl-facebook"></a>
+                    <a href="#" class="bx bxl-youtube"></a>
+                </div>
+                <div class="search">
+                    <input type="search" class="search-input" id="src" placeholder="поиск...">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9311 12.8925L13.1027 15.7209L20.1738 22.792L23.0022 19.9636L15.9311 12.8925Z"
+                            fill="#95A5A6" />
+                        <path d="M15.9311 12.8925L13.1027 15.7209L15.224 17.8423L18.0525 15.0138L15.9311 12.8925Z"
+                            fill="#7F8C8D" />
+                        <path
+                            d="M3.201 3C-0.313703 6.5 -0.313703 12.2 3.201 15.7C6.7158 19.2 12.414 19.2 15.929 15.7C19.444 12.2 19.444 6.5 15.929 3C12.414 -0.5 6.7157 -0.5 3.201 3ZM5.3223 5.09998C7.6655 2.79998 11.464 2.79998 13.808 5.09998C16.151 7.49998 16.151 11.3 13.808 13.6C11.464 15.9 7.6655 15.9 5.3223 13.6C2.9792 11.3 2.9792 7.49998 5.3223 5.09998Z"
+                            fill="#BDC3C7" />
+                        <path
+                            d="M16 9.5C16 11.2239 15.3152 12.8772 14.0962 14.0962C12.8772 15.3152 11.2239 16 9.5 16C7.77609 16 6.12279 15.3152 4.90381 14.0962C3.68482 12.8772 3 11.2239 3 9.5C3 7.77609 3.68482 6.12279 4.90381 4.90381C6.12279 3.68482 7.77609 3 9.5 3C11.2239 3 12.8772 3.68482 14.0962 4.90381C15.3152 6.12279 16 7.77609 16 9.5Z"
+                            fill="#ECF0F1" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <span></span>
+        </div>
+    </header>
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1 class="title-welcome">WELCOME TO <br>IT-DUBAI-BOOTCAMP</h1>
+            <p class="desc-world">Весь мир в твоих руках</p>
+            <a href="#plus-it" class='bx bx-down-arrow-circle'></a>
+        </div>
+    </section>
+    <section class="plus-it" id="plus-it">
+        <div class="container">
+            <h1 class="plus-it-title"><span>Плюсы</span> быть программистом</h1>
+            <div class="plus-it-box">
+                <div class="box-item box-item-blue">
+                    <h4 class="box-item-title">Работать в любой точке земли</h4>
+                    <img src="./images/picdog-1.png" alt="">
+                </div>
+                <div class="box-item box-item-yellow">
+                    <h4 class="box-item-title">Хороший заработок</h4>
+                    <img src="./images/picdog-2.png" alt="">
+                </div>
+                <div class="box-item box-item-red">
+                    <h4 class="box-item-title">Востребованная профессия</h4>
+                    <img src="./images/picdog-3.png" alt="">
+                </div>
+                <div class="box-item box-item-purple">
+                    <h4 class="box-item-title">Сам себе хозяин</h4>
+                    <img src="./images/picdog-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="founders">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" class="founders-wave">
+            <path fill="black" fill-opacity="1"
+                d="M0,160L48,138.7C96,117,192,75,288,53.3C384,32,480,32,576,74.7C672,117,768,203,864,213.3C960,224,1056,160,1152,128C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container">
+            <h2 class="founders__title text-center">Соучредители</h2>
+            <div class="founders__row row">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex">
+                    <div class="founders__item">
+                        <div class="founders__img">
+                            <img src="./images/edil.jpg" alt="">
+                        </div>
+                        <h2 class="founders__item-title">
+                            Эдил Касенов
+                        </h2>
+                        <h3 class="founders__item-subtitle">Основатель компании</h3>
+                        <p class="founders__item-desc">
+                            Человек года Кыргызской Республики 2014, 2015, 2016, 2017. Имеет опыт ведения успешного
+                            бизнеса в Майами 3 года и 7 лет в Китае
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="founders__item">
+                        <div class="founders__img">
+                            <img src="./images/aida.jpeg" alt="">
+                        </div>
+                        <h2 class="founders__item-title">
+                            Аида Джумашалиева
+                        </h2>
+                        <h3 class="founders__item-subtitle">Основатель компании</h3>
+                        <p class="founders__item-desc">
+                            Выпускница Американского Университета Центральной Азии, Управление Бизнесом, Магистр
+                            экономических наук Дипломатической Академии при МИД КР
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex">
+                    <div class="founders__item">
+                        <div class="founders__img">
+                            <img src="./images/igor.png" alt="">
+                        </div>
+                        <h2 class="founders__item-title">
+                            Игорь Самарцев
+                        </h2>
+                        <h3 class="founders__item-subtitle">Сооснователь компании</h3>
+                        <p class="founders__item-desc">
+                            Ведущий Front-end разработчик, основатель студии по WEB разработке “Nevis”. Опыт в
+                            разработке и руководстве командой более 6 лет
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="summary">
+        <h2 class="summary__title text-center">Ваше резюме после обучения</h2>
+        <div class="container">
+            <div class="summary__svg d-flex">
+                <svg height="142" viewBox="0 0 512 512" width="145" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Filled_outline" data-name="Filled outline">
+                        <path d="m312 136a24 24 0 0 0 -24-24h-240a24 24 0 0 0 -24 24v168h288z" fill="#4db7e5" />
+                        <path d="m288 112-192 192h216v-168a24 24 0 0 0 -24-24z" fill="#48add9" />
+                        <path d="m24 304v16a24 24 0 0 0 24 24h240a24 24 0 0 0 24-24v-16z" fill="#e0e0de" />
+                        <path d="m208 392h-80l16-48h48z" fill="#c7c7c5" />
+                        <rect fill="#e0e0de" height="32" rx="16" width="144" x="96" y="392" />
+                        <circle cx="408" cy="128" fill="#7a432a" r="24" />
+                        <circle cx="264" cy="128" fill="#7a432a" r="24" />
+                        <path
+                            d="m446.788 282.112-70.788-10.112v-48h-80v48l-74.058 15.869a48 48 0 0 0 -37.942 46.931v65.2h304v-70.37a48 48 0 0 0 -41.212-47.518z"
+                            fill="#fec9a3" />
+                        <path
+                            d="m342.03 264a63.811 63.811 0 0 0 33.97-9.81v-30.19h-80v30.19a63.811 63.811 0 0 0 33.97 9.81z"
+                            fill="#feb784" />
+                        <path
+                            d="m488 329.63v102.37h-304v-97.2a48 48 0 0 1 37.94-46.93l74.06-15.87c13.42 37.58 66.58 37.58 80 0l48.41 6.91 22.38 3.2a48 48 0 0 1 41.21 47.52z"
+                            fill="#f35244" />
+                        <path d="m240 432h192v56h-192z" fill="#ea4a3b" />
+                        <path
+                            d="m488 329.63v102.37h-226.41c61.96-33.27 115.95-77.41 162.82-153.09l22.38 3.2a48 48 0 0 1 41.21 47.52z"
+                            fill="#ea4a3b" />
+                        <path d="m416 128h-8v48h8a24 24 0 1 0 0-48z" fill="#feb784" />
+                        <path d="m264 128h-8a24 24 0 0 0 0 48h8z" fill="#feb784" />
+                        <path
+                            d="m408 120v56a72 72 0 0 1 -69.33 71.95c-.88.03-1.78.05-2.67.05a72.006 72.006 0 0 1 -72-72v-56a72.006 72.006 0 0 1 62.14-71.32h.01a72 72 0 0 1 81.85 71.32z"
+                            fill="#fec9a3" />
+                        <path
+                            d="m408 120v56a72 72 0 0 1 -69.33 71.95 87.892 87.892 0 0 0 37.33-71.95v-48a88.141 88.141 0 0 0 -49.85-79.32 72 72 0 0 1 81.85 71.32z"
+                            fill="#fec093" />
+                        <path
+                            d="m416 72c-.14 0-.268.039-.407.041a27.759 27.759 0 0 0 .407-4.041 27.906 27.906 0 0 0 -48.722-18.68 31.979 31.979 0 0 0 -62.556 0 27.667 27.667 0 0 0 -48.315 22.721c-.139 0-.267-.041-.407-.041a24 24 0 0 0 0 48l8 24 11.811-35.432a23.86 23.86 0 0 0 36.189-20.568l1.639.545a23.9 23.9 0 0 0 44.722 0l1.639-.545a23.86 23.86 0 0 0 36.189 20.568l11.811 35.432 8-24a24 24 0 0 0 0-48z"
+                            fill="#7a432a" />
+                        <path d="m216 488h24l152-32h32l24-16h40v-56h-40l-56 24-208 16v32a32 32 0 0 0 32 32z"
+                            fill="#feb784" />
+                        <path d="m456 488h-24l-152-32h-32l-24-16h-40v-56h40l56 24 208 16v32a32 32 0 0 1 -32 32z"
+                            fill="#fec9a3" />
+                        <circle cx="296" cy="152" fill="#e0e0de" r="24" />
+                        <circle cx="376" cy="152" fill="#e0e0de" r="24" />
+                        <path d="m116.919 208h86.163v16h-86.163z"
+                            transform="matrix(.371 -.928 .928 .371 -99.97 284.348)" />
+                        <path d="m123.2 185.6-32 24a8 8 0 0 0 0 12.8l32 24 9.6-12.8-23.467-17.6 23.467-17.6z" />
+                        <path d="m196.8 246.4 32-24a8 8 0 0 0 0-12.8l-32-24-9.6 12.8 23.467 17.6-23.467 17.6z" />
+                        <path d="m48 136h16v16h-16z" />
+                        <path d="m80 136h16v16h-16z" />
+                        <path d="m112 136h16v16h-16z" />
+                        <path
+                            d="m447.927 274.16-63.927-9.101v-25.093a79.774 79.774 0 0 0 31.6-55.966h.4a31.992 31.992 0 0 0 15.473-60 31.995 31.995 0 0 0 -7.6-59.019 36.049 36.049 0 0 0 -35.873-32.981 35.649 35.649 0 0 0 -17.15 4.429 39.94 39.94 0 0 0 -69.7 0 35.649 35.649 0 0 0 -17.15-4.429 36.049 36.049 0 0 0 -35.875 32.98 32.018 32.018 0 0 0 -23.112 39.02h-177.013a32.036 32.036 0 0 0 -32 32v184a32.036 32.036 0 0 0 32 32h84.9l-10.667 32h-10.233a24.114 24.114 0 0 0 -24 24 24.027 24.027 0 0 0 24 24h64v24a40.045 40.045 0 0 0 40 40s25.108-.058 25.652-.173l94.239-19.885 94.461 19.886c.542.114 25.648.172 25.648.172a40.045 40.045 0 0 0 40-40v-126.4a56.385 56.385 0 0 0 -48.073-55.44zm-143.927-24.844a79.948 79.948 0 0 0 64 0v21.216c-6.286 15.933-20.545 21.655-32 21.655s-25.714-5.722-32-21.655zm96-73.316a64 64 0 0 1 -128 0v-2.868a31.978 31.978 0 0 0 54.987-13.132h18.026a31.978 31.978 0 0 0 54.987 13.132zm-160-24a16.019 16.019 0 0 1 16-16v32a16.019 16.019 0 0 1 -16-16zm136-32a32.056 32.056 0 0 0 -30.987 24h-18.026a31.971 31.971 0 0 0 -48.246-18.925l1.983-5.95a30.924 30.924 0 0 0 7.276.875 32.016 32.016 0 0 0 27.408-15.5 32.029 32.029 0 0 0 41.184 0 32.016 32.016 0 0 0 27.408 15.5 30.924 30.924 0 0 0 7.276-.875l1.983 5.95a31.8 31.8 0 0 0 -17.259-5.075zm16 32a16 16 0 1 1 -16-16 16.019 16.019 0 0 1 16 16zm-80 0a16 16 0 1 1 -16-16 16.019 16.019 0 0 1 16 16zm104 16v-32a16 16 0 0 1 0 32zm-160.386-87.995c.2.017.429.032.681.035a8 8 0 0 0 8.029-9.152l-.051-.342a19.391 19.391 0 0 1 -.273-2.546 20.023 20.023 0 0 1 20-20 19.728 19.728 0 0 1 14.781 6.679 8 8 0 0 0 13.766-3.695 23.979 23.979 0 0 1 46.906 0 8 8 0 0 0 13.766 3.7 19.728 19.728 0 0 1 14.781-6.684 20.023 20.023 0 0 1 20 20 19.391 19.391 0 0 1 -.273 2.546l-.051.342a8 8 0 0 0 1.9 6.428 7.822 7.822 0 0 0 6.126 2.724c.252 0 .478-.017.68-.035a16 16 0 0 1 -.382 31.995c-.782 0-8.242-.354-10.167.2l-2.054-6.164a8 8 0 0 0 -11.679-4.346 15.715 15.715 0 0 1 -8.1 2.31 16.019 16.019 0 0 1 -16-16 8 8 0 0 0 -10.526-7.591l-1.63.542a8 8 0 0 0 -4.954 4.736 15.906 15.906 0 0 1 -29.78 0 8 8 0 0 0 -4.954-4.736l-1.63-.542a8 8 0 0 0 -10.526 7.591 16.019 16.019 0 0 1 -16 16 15.715 15.715 0 0 1 -8.1-2.31 8 8 0 0 0 -11.675 4.348l-2.054 6.163c-1.924-.554-9.385-.2-10.167-.2a16 16 0 0 1 -.386-32zm-223.614 55.995a16.019 16.019 0 0 1 16-16h186.868a32.17 32.17 0 0 0 5.659 4 31.992 31.992 0 0 0 15.473 60h.4a79.766 79.766 0 0 0 31.6 55.97v25.562l-67.779 14.493a55.964 55.964 0 0 0 -28.466 15.975h-159.755zm0 184v-8h148.93a55.381 55.381 0 0 0 -4.93 22.8v1.2h-128a16.019 16.019 0 0 1 -16-16zm117.766 32h26.234v32h-36.9zm-45.766 56a7.656 7.656 0 0 1 2.3-5.546c.053-.051.105-.1.156-.155a7.655 7.655 0 0 1 5.544-2.299h64v16h-64a8.009 8.009 0 0 1 -8-8zm135.165 72h-23.165a24.027 24.027 0 0 1 -24-24v-8h29.578l21.984 14.656a8 8 0 0 0 4.438 1.344h31.167l17.932 3.775zm240.835-24a24.027 24.027 0 0 1 -24 24h-23.167l-151.185-31.828a8.005 8.005 0 0 0 -1.648-.172h-29.578l-21.985-14.656a8 8 0 0 0 -4.437-1.344h-32v-40h30.358l54.491 23.354a8.056 8.056 0 0 0 2.537.623l200.614 15.431zm0-40.639-71.937-5.534 27.1-11.6 14.484-6.227h30.353zm0-39.361h-32a8.022 8.022 0 0 0 -3.16.65l-4.84 2.075v-26.725h-16v33.582l-33.938 14.544-53.943 4.167-54.185-4.168-33.934-14.543v-33.582h-16v26.725l-4.849-2.079a8.01 8.01 0 0 0 -3.151-.646h-32v-41.2a40.314 40.314 0 0 1 31.593-39.137l67.707-14.478a50.5 50.5 0 0 0 89.613-.4l1.954.279 62.779 8.936a40.293 40.293 0 0 1 34.354 39.6z" />
+                        <path
+                            d="m328.934 192h-16.934v16h16.934c10.806 0 21.433-.336 31.587-1l-1.042-15.967c-9.808.643-20.079.967-30.545.967z" />
+                    </g>
+                </svg>
+                <div class="summarry__position">
+                    <h3 class="summary__post">Должность</h3>
+                    <h2 class="summary__designer">Веб-разработчик</h2>
+                </div>
+            </div>
+            <div class="summary__salary">
+                <h1 class="summary__post">Зарплата</h1>
+                <p class="summary__designer">от 1500$</p>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="founders__title text-center">Профессиональные навыки:</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/html 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Syntax /> </a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < HTML5 /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Forms /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Semantic /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Best Practices />
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/css 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < CSS3 /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Syntax /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Selectors /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Properties /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Sass/Scss /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/javascript-39399 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Syntax /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Spread /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Destructuring /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < DOM /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Events /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/react 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Syntax /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Functional /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < React hooks /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Component Lifecycle /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Context API /></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M116.876 0H3.1253C1.39903 0 0 1.38731 0 3.09911V116.901C0 118.613 1.39903 120 3.1253 120H40.9395V119.973C42.6462 119.953 43.9538 119.006 44.0139 117.403C44.169 113.236 44.0595 109.06 44.0595 105.031C41.0139 105.172 38.1063 105.554 35.2315 105.389C28.891 105.027 24.0188 102.344 21.4919 96.1878C19.9951 92.5404 17.7396 89.4208 14.227 87.3391C13.5711 86.95 12.9976 86.3771 12.4957 85.7953C11.8397 85.0365 11.9624 84.2569 12.9989 84.0486C14.0445 83.8378 15.1868 83.6906 16.2179 83.8817C20.2676 84.6355 23.068 87.1541 25.2116 90.504C29.4502 97.1312 35.9746 99.1599 43.3149 96.0995C43.7242 95.9288 44.2444 95.5151 44.3215 95.1376C44.9133 92.2039 46.019 89.529 48.2472 87.1839C45.77 86.7288 43.4753 86.394 41.225 85.8766C34.7449 84.3898 28.9236 81.7149 24.6666 76.4023C21.1935 72.0686 19.6052 66.9955 18.8751 61.5962C17.7318 53.1395 18.7552 45.2233 24.6119 38.4653C24.9078 38.1239 25.0682 37.4244 24.9366 36.9992C23.4698 32.2466 23.6939 27.5339 25.1477 22.8343C25.9106 20.3662 26.123 20.2433 28.6629 20.5872C28.8182 20.6079 28.9692 20.6466 29.1232 20.6726C34.2145 21.5079 38.5967 23.9525 42.9135 26.5771C43.4939 26.9301 44.3778 27.1499 45.0154 26.9961C55.3259 24.5151 65.6168 24.5254 75.926 27.0051C76.5245 27.1486 77.3238 26.9443 77.896 26.6471C80.2429 25.4304 82.4894 24.0161 84.8663 22.8626C87.6315 21.522 90.5442 20.5135 93.6799 20.569C94.2287 20.5794 95.0777 21.0991 95.2613 21.5801C97.148 26.537 97.5458 31.5883 96.0423 36.747C95.8819 37.2977 96.1205 38.0825 96.4192 38.6254C97.903 41.3251 99.9746 43.8164 100.914 46.68C103.775 55.4082 102.732 64.0512 98.8366 72.2545C95.2667 79.7739 88.646 83.5841 80.8089 85.5494C78.1621 86.2127 75.4503 86.616 72.5949 87.172C76.3368 91.0481 76.9235 95.7786 76.857 100.733C76.788 105.844 76.8063 110.956 76.8035 116.068C76.8023 118.544 77.8922 119.911 79.7944 119.992C79.7931 119.999 120 119.999 120 119.999V3.09911C120 1.38731 118.601 0 116.876 0Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                        <ul class="skills__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Linters /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Babel /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < WebPack /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Yarn/NPM /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Best Practices />
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/bootstrap 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Linters /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Babel /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < WebPack /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Yarn/NPM /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < POSTCSS /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/nodejs 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Модули /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Пакеты /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Мероприятия /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < HTTP /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Основы node.js /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="skills__item">
+                        <div class="skills__item_img">
+                            <img src="./images/backend 1.png" alt="">
+                        </div>
+                        <ul class="skils__menu">
+                            <li><a href="#" class="skills__menu_list">
+                                    < Mongo DB/Mogoose /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Socket.io /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < File API /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Express /></a></li>
+                            <li><a href="#" class="skills__menu_list">
+                                    < Node HTTP server /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="summary__svg">
+            <path fill="#e0e0e0" fill-opacity="1"
+                d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <section class="weekend">
+        <div class="container">
+            <h2 class="founders__title text-center">Выходные наших студентов</h2>
+            <div class="owl-carousel w-50">
+                <div class="video">
+                    <a data-fancybox href=https://www.youtube.com/watch?v=3u2vnzugdNY class="player">
+                        <div class="player-info">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 142.448 142.448"
+                                style="enable-background:new 0 0 142.448 142.448;" xml:space="preserve">
+                                <g>
+                                    <path style="fill:#1D1D1B;" d="M142.411,68.9C141.216,31.48,110.968,1.233,73.549,0.038c-20.361-0.646-39.41,7.104-53.488,21.639
+		C6.527,35.65-0.584,54.071,0.038,73.549c1.194,37.419,31.442,67.667,68.861,68.861c0.779,0.025,1.551,0.037,2.325,0.037
+		c19.454,0,37.624-7.698,51.163-21.676C135.921,106.799,143.033,88.377,142.411,68.9z M111.613,110.336
+		c-10.688,11.035-25.032,17.112-40.389,17.112c-0.614,0-1.228-0.01-1.847-0.029c-29.532-0.943-53.404-24.815-54.348-54.348
+		c-0.491-15.382,5.122-29.928,15.806-40.958c10.688-11.035,25.032-17.112,40.389-17.112c0.614,0,1.228,0.01,1.847,0.029
+		c29.532,0.943,53.404,24.815,54.348,54.348C127.91,84.76,122.296,99.306,111.613,110.336z" />
+                                    <path style="fill:#1D1D1B;" d="M94.585,67.086L63.001,44.44c-3.369-2.416-8.059-0.008-8.059,4.138v45.293
+		c0,4.146,4.69,6.554,8.059,4.138l31.583-22.647C97.418,73.331,97.418,69.118,94.585,67.086z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="video fon-img">
+                    <a data-fancybox href=https://youtu.be/LUNm48Q8whs class="player">
+                        <div class="player-info">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 142.448 142.448"
+                                style="enable-background:new 0 0 142.448 142.448;" xml:space="preserve">
+                                <g>
+                                    <path style="fill:#1D1D1B;" d="M142.411,68.9C141.216,31.48,110.968,1.233,73.549,0.038c-20.361-0.646-39.41,7.104-53.488,21.639
+		C6.527,35.65-0.584,54.071,0.038,73.549c1.194,37.419,31.442,67.667,68.861,68.861c0.779,0.025,1.551,0.037,2.325,0.037
+		c19.454,0,37.624-7.698,51.163-21.676C135.921,106.799,143.033,88.377,142.411,68.9z M111.613,110.336
+		c-10.688,11.035-25.032,17.112-40.389,17.112c-0.614,0-1.228-0.01-1.847-0.029c-29.532-0.943-53.404-24.815-54.348-54.348
+		c-0.491-15.382,5.122-29.928,15.806-40.958c10.688-11.035,25.032-17.112,40.389-17.112c0.614,0,1.228,0.01,1.847,0.029
+		c29.532,0.943,53.404,24.815,54.348,54.348C127.91,84.76,122.296,99.306,111.613,110.336z" />
+                                    <path style="fill:#1D1D1B;" d="M94.585,67.086L63.001,44.44c-3.369-2.416-8.059-0.008-8.059,4.138v45.293
+		c0,4.146,4.69,6.554,8.059,4.138l31.583-22.647C97.418,73.331,97.418,69.118,94.585,67.086z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="video fon-img-title">
+                    <a data-fancybox href=https://youtu.be/ntlzbRYAbtE class="player">
+                        <div class="player-info">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 142.448 142.448"
+                                style="enable-background:new 0 0 142.448 142.448;" xml:space="preserve">
+                                <g>
+                                    <path style="fill:#1D1D1B;" d="M142.411,68.9C141.216,31.48,110.968,1.233,73.549,0.038c-20.361-0.646-39.41,7.104-53.488,21.639
+		C6.527,35.65-0.584,54.071,0.038,73.549c1.194,37.419,31.442,67.667,68.861,68.861c0.779,0.025,1.551,0.037,2.325,0.037
+		c19.454,0,37.624-7.698,51.163-21.676C135.921,106.799,143.033,88.377,142.411,68.9z M111.613,110.336
+		c-10.688,11.035-25.032,17.112-40.389,17.112c-0.614,0-1.228-0.01-1.847-0.029c-29.532-0.943-53.404-24.815-54.348-54.348
+		c-0.491-15.382,5.122-29.928,15.806-40.958c10.688-11.035,25.032-17.112,40.389-17.112c0.614,0,1.228,0.01,1.847,0.029
+		c29.532,0.943,53.404,24.815,54.348,54.348C127.91,84.76,122.296,99.306,111.613,110.336z" />
+                                    <path style="fill:#1D1D1B;" d="M94.585,67.086L63.001,44.44c-3.369-2.416-8.059-0.008-8.059,4.138v45.293
+		c0,4.146,4.69,6.554,8.059,4.138l31.583-22.647C97.418,73.331,97.418,69.118,94.585,67.086z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="owl-carousel owl-two">
+                <div class="owl-foto"><img src="./images/re.jpg" alt=""></div>
+                <div class="owl-foto"><img src="./images/reg.jpg" alt=""></div>
+                <div class="owl-foto"><img src="./images/dji.jpg" alt=""></div>
+                <div class="owl-foto"><img src="./images/akati.jpeg" alt=""></div>
+                <div class="owl-foto"><img src="./images/foto.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <form class="contact__form">
+                <div class="contact__top-text">
+                    <h2 class="contact__top-title">
+                        Свяжитесь с нами
+                    </h2>
+                    <p class="contact__top-desc">
+                        мы ценим личный контакт!
+                    </p>
+                </div>
+                <input type="text" class="contact__input" placeholder="Имя*" required>
+                <span></span>
+                <input type="text" class="contact__input" placeholder="Фамилия*" required>
+                <span></span>
+                <input type="email" class="contact__input" placeholder="Email*" required>
+                <span></span>
+                <input type="number" class="contact__input" placeholder="Номер телефона*" required>
+    
+                <button class="contact__btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__contact-email">
+                <svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M36.4844 0.9375H3.51562C1.5732 0.9375 0 2.52047 0 4.45312V25.5469C0 27.491 1.58477 29.0625 3.51562 29.0625H36.4844C38.4105 29.0625 40 27.4977 40 25.5469V4.45312C40 2.52391 38.433 0.9375 36.4844 0.9375ZM35.992 3.28125C35.2738 3.9957 22.9127 16.2916 22.4859 16.7162C21.8219 17.3802 20.9391 17.7459 20 17.7459C19.0609 17.7459 18.1781 17.3802 17.5119 16.714C17.2248 16.4284 5.00023 4.26828 4.00797 3.28125H35.992ZM2.34375 25.0698V4.93164L12.4717 15.0062L2.34375 25.0698ZM4.00945 26.7188L14.1334 16.6591L15.8568 18.3734C16.9635 19.4802 18.4349 20.0896 20 20.0896C21.5651 20.0896 23.0365 19.4802 24.141 18.3756L25.8666 16.6591L35.9905 26.7188H4.00945ZM37.6562 25.0698L27.5283 15.0062L37.6562 4.93164V25.0698Z"
+                        fill="black" />
+                </svg>
+                <a href="mailto:it-dubai@gmail.com">it-dubai@gmail.com</a>
+            </div>
+            <div class="footer__logo">
+                <a href="#">
+                    <img src="./images/programmer 1.png" alt="">
+                </a>
+            </div>
+            <div class="footer__phone">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M36 27.3337C32.128 27.3337 28.44 26.491 25.04 24.8297C24.72 24.6697 24.352 24.651 24.0187 24.7683C23.6827 24.8857 23.408 25.131 23.2533 25.4483L21.1573 29.787C15.7333 26.7603 11.2427 22.2723 8.21867 16.8483L12.5547 14.747C12.8747 14.5923 13.1173 14.3177 13.2347 13.9817C13.3493 13.6483 13.328 13.2803 13.1707 12.9603C11.5093 9.56033 10.6667 5.87233 10.6667 2.00033C10.6667 1.26433 10.0693 0.666992 9.33333 0.666992H1.33333C0.597333 0.666992 0 1.26433 0 2.00033C0 21.851 16.1493 38.0003 36 38.0003C36.736 38.0003 37.3333 37.403 37.3333 36.667V28.667C37.3333 27.931 36.736 27.3337 36 27.3337Z"
+                        fill="black" />
+                </svg>
+                <a href="tel:+17797777000">+17797777000</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

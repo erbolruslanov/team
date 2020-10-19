@@ -1,0 +1,432 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 940px;
+    }
+
+    .title-welcome {
+        font-size: 92px;
+    }
+
+    .header-right-menu {
+        width: 400px;
+    }
+
+    .search-input {
+        width: 200px;
+    }
+
+    .social-contacts {
+        margin-left: 25px;
+    }
+    .plus-it-title {
+        font-size: 65px;
+    }
+
+    .box-item-title {
+        font-size: 26px;
+    }
+
+    .skills__menu_list {
+        font-size: 17px;
+    }
+
+    .summary__title::before {
+        width: 940px;
+    }
+
+    .summary__title::after {
+        width: 940px;
+    }
+
+    .video {
+        width: 565px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    .video {
+        width: 462px;
+    }
+
+    .top-menu {
+        font-size: 16px;
+        max-width: 275px;
+    }
+
+    .top-menu-item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .logo img {
+        height: 80px;
+        width: 90px;
+    }
+
+    .header-right-menu {
+        width: 275px;
+        align-items: center;
+    }
+
+    .search-input {
+        width: 132px;
+        height: 30px;
+        padding: 0 36px 5px 10px;
+    }
+
+    .bxl-facebook,
+    .bxl-instagram,
+    .bxl-youtube {
+        font-size: 22px;
+    }
+
+    .social-contacts {
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+
+    .search-input {
+        width: 155px;
+    }
+
+    .title-welcome {
+        font-size: 65px;
+    }
+
+    .desc-world {
+        font-size: 36px;
+    }
+
+    .box-item img {
+        width: 250px;
+        height: 170px;
+    }
+
+    .plus-it {
+        padding-top: 25px;
+    }
+
+    .plus-it-title {
+        font-size: 42px;
+    }
+
+    .plus-it-title:before {
+        width: 560px;
+    }
+
+    .btn-call {
+        font-size: 25px;
+        width: 200px;
+    }
+
+    .box-item-title {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .founders__item {
+        margin-bottom: 20px;
+    }
+
+    .summary__title {
+        font-size: 42px;
+    }
+
+    .summary__designer {
+        font-size: 25px;
+    }
+
+    .summary__post {
+        font-size: 22px;
+    }
+
+    .skills__menu_list {
+        font-size: 16px;
+    }
+
+    .summary__title::before {
+        width: 640px;
+    }
+
+    .summary__title::after {
+        width: 640px;
+    }
+
+    .summary__svg svg {
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 500px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header-right-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        position: fixed;
+        z-index: 11;
+        top: -65%;
+    }
+
+    .top-menu {
+        display: none;
+        max-width: unset;
+        z-index: 10;
+    }
+
+    .top-menu {
+        background: #3f4144;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: .7s;
+        position: fixed;
+    }
+
+    .top-menu-item {
+        margin: 50px 0;
+        font-size: 25px;
+    }
+
+    .top-menu.show .top-menu-item {
+        margin-right: 0;
+    }
+
+    .top-menu.show {
+        right: 0;
+        z-index: 2;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .title-welcome {
+        font-size: 45px;
+    }
+    .box-item {
+        width: 100%;
+    }
+    .desc-world {
+        font-size: 30px;
+    }
+
+    .btn-call {
+        font-size: 23px;
+    }
+
+    .plus-it-title {
+        font-size: 28px;
+    }
+
+    .plus-it-title:before {
+        width: 284px;
+    }
+    .box-item-title{
+        font-size: 14px;
+    }
+
+    .plus-it {
+        height: 170vh;
+    }
+
+    .summary__title::before {
+        width: 470px;
+    }
+
+    .summary__title::after {
+        width: 470px;
+    }
+
+    .founders__item {
+        margin-bottom: 20px;
+    }
+    .founders__title {
+        font-size: 27px;
+    }
+
+    .summary__title {
+        font-size: 27px;
+    }
+    .summary__post {
+        font-size: 20px;
+    }
+
+    .summary__designer {
+        font-size: 22px;
+    }
+
+    .skills__title {
+        font-size: 29px;
+    }
+
+
+    .footer__logo img {
+        display: none;
+    }
+
+    .weekend {
+        display: none;
+    }
+
+    .summary__svg {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .plus-it {
+        height: 150vh;
+    }
+
+    .title-welcome {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .desc-world {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .btn-call {
+        font-size: 16px;
+        width: 130px;
+        height: 30px;
+        line-height: unset;
+    }
+
+    .plus-it {
+        padding: 10px 0;
+    }
+
+    .plus-it-title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .box-item-title {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .box-item{
+        width: 100%;
+        height: 180px;
+    }
+
+    .box-item img {
+        width: 180px;
+        height: 120px;
+    }
+
+    .founders__title {
+        font-size: 19px;
+        margin: 15px 0;
+    }
+
+    .summary__svg {
+        display: none;
+    }
+
+    .summary__title {
+        line-height: 35px;
+        margin: 10px 0 10px;
+        font-size: 18px;
+    }
+
+    .summary__title::before {
+        width: 280px;
+    }
+
+    .summary__title::after {
+        width: 280px;
+        bottom: -145px;
+    }
+
+    .summary__svg svg {
+        width: 70px;
+    }
+
+    .summary__post {
+        font-size: 13px;
+    }
+
+    .summary__designer {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .summary {
+        margin-top: unset;
+        padding-bottom: unset;
+    }
+
+    .skills__title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .form-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .weekend {
+        display: none;
+    }
+
+    .contact__top-title {
+        font-size: 24px;
+    }
+
+    .contact__top-desc {
+        font-size: 15px;
+    }
+    .footer__contact-email svg {
+        width: 20px;
+        height: 15px;
+    }
+    .footer__contact-email a {
+        font-size: 15px;
+    }
+    .footer__phone {
+        min-width: unset;
+    }
+    .footer__phone svg {
+        width: 20px;
+        height: 15px;
+    }
+    .footer__phone a {
+        font-size: 13px;
+    }
+}
